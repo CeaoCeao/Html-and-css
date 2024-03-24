@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="all.css">
+    <style>
+        body {
+            background-color: #212121;
+            color: #f0670c;
+        }
+
+        button {
+            background-color: chartreuse;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+
+        input[type="submit"] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        input[type="submit"]:hover {
+            background-color: #231f61;
+        }
+
+
+        .container {
+            border-radius: 5px;
+            background-color: #061d68;
+            padding: 20px;
+        }
+
+        .footer-container{
+            background-color:rgb(0, 0, 0);
+            padding:10px;
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+            margin-top:30px;
+            border-radius:6px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="welcome" style="background-color: transparent;
+    color: rgb(221, 102, 5);
+    text-align: center;
+    font-size: 22px"><b>Welcome. Have an Amazing meal</b></div>
+
+    <section>
+        <div style="font-size: 22px; background-color: #fff;
+        text-align: center ;"><I></I>Order something</I></div>
+
+        <div class="overall-grid" style="display:flex;">
+
+            <div class="grid-div">
+
+                <div class="Order" style="display: grid; grid-template-columns: 300px 300px 300px; column-gap:10px;;">
+    
+                    <div class="pr">
+                        <img style="height:200px; width:200px; object-fit: cover;object-position:center;;"
+                            src="chickensandwitch.jpeg" alt="Item 1">
+                        <h3>chickensandwitch</h3>
+                        <p>Price: $19.99</p>
+                        <button type="button">Order</button>
+                    </div>
+    
+                    <div class="pr">
+                        <img style="height:200px;width:200px; object-fit: cover;object-position:center;;"
+                            src="Burgermeat.jpg" alt="Item 2">
+                        <h3>pizza </h2>
+                            <p>Price: $24.99</p>
+                            <button type="button">Order</button>
+                    </div>
+                    <div class="pr">
+                        <img style="height:200px;width:200px; object-fit: cover;object-position:center;;" src="burger.jpeg"
+                            alt="Item 3">
+                        <h3>Burger</h3>
+                        <p>Price: $19.99</p>
+                        <button type="button">Order</button>
+                    </div>
+    
+    
+    
+                    <div class="pr">
+                        <img style="height:200px;width:200px; object-fit: cover;object-position:center;;"
+                            src="Humberger.jpg" alt="Item 1">
+                        <h3>chickensandwitch</h3>
+                        <p>Price: $14.99</p>
+                        <button type="button">Order</button>
+                    </div>
+    
+                    <div class="pr">
+                        <img style="height:200px;width:200px; object-fit: cover;object-position:center;;" src="pizza.jpeg"
+                            alt="Item 2">
+                        <h3>pizza </h3>
+                        <p>Price: $24.99</p>
+                        <button type="button">Order</button>
+                    </div>
+    
+                    <div class="pr">
+                        <img style="height:200px;width:200px; object-fit: cover;object-position:center;;"
+                            src="lambsteak.jpg" alt="Item 3">
+                        <h3>Burger</h3>
+                        <p>Price: $30.99</p>
+                        <button type="button">Order</button>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="form-div">
+                <div class="container">
+                    <form>
+                        <h1>Fill the form for delivery!!</h1>
+                        <fieldset>
+                            <legend>Details:</legend>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+                            <label for="email">Email Address</label>
+                            <input type="text" id="email" name="email" placeholder="Your email address..">
+    
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+    
+                            <label for="residence">Residence</label>
+                            <input type="text" id="residence" name="residence" placeholder="Your residence..">
+    
+                            <input type="submit" value="Submit">
+    
+                        </fieldset>
+                    </form>
+    
+                </div>
+            </div>
+    
+
+        </div>
+
+       
+
+
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="container-content">
+                <h4>contact us</h4>
+                <p>Email:<a href="#">FastFoods@Foods.ac.ke</a> </p>
+                <p>Tel:<a href="#">+25478787636</a> </p>
+            </div>
+            <div class="footer-cont">
+                <h3>Quick links</h3>
+                <ul class="lists">
+                    <li><a href="Home.html">HomePage</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="us.html">About Us</a></li>
+                    <li><a href="faqs.html">FaQs</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>
